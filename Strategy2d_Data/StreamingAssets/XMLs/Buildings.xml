@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<buildings>
+  <building name = "Barracks">
+    <SpriteFinished>Barracks</SpriteFinished>
+    <SpawnTypeName>Order</SpawnTypeName>
+    <CanBeBuild>true</CanBeBuild>
+    <BuildingTime>2</BuildingTime>
+    <BuildInZonesWithId>0</BuildInZonesWithId>
+    <Description>Allows to recruit units</Description>
+    <SpriteUnfinishedNames>BarracksUnfinished1 BarracksUnfinished2 BarracksUnfinished3</SpriteUnfinishedNames>
+  </building>
+  <building name = "Castle">
+    <SpriteFinished>Castle</SpriteFinished>
+    <SpawnTypeName>Order</SpawnTypeName>
+    <CanBeBuild>false</CanBeBuild>
+    <SpriteUnfinishedNames>CastleUnfinished1 CastleUnfinished2 CastleUnfinished3</SpriteUnfinishedNames>
+  </building>
+  <building name = "Lumber Mill">
+    <CanBeBuild>true</CanBeBuild>
+    <SpawnTypeName>Order</SpawnTypeName>
+    <SpriteFinished>LumberMill</SpriteFinished>
+    <BuildingTime>25</BuildingTime>
+    <BuildInZonesWithId>2</BuildInZonesWithId>
+    <Description>Workers can gather Lumber here</Description>
+    <SpriteUnfinishedNames>LumberMillUnfinished1</SpriteUnfinishedNames>
+  </building>
+  <building name = "House">
+    <CanBeBuild>true</CanBeBuild>
+    <SpawnTypeName>Order</SpawnTypeName>
+    <SpriteFinished>House</SpriteFinished>
+    <BuildingTime>20</BuildingTime>
+    <BuildInZonesWithId>1 2 3</BuildInZonesWithId>
+    <Description>Increase population limit</Description>
+    <SpriteUnfinishedNames>HouseUnfinished1 HouseUnfinished2 HouseUnfinished3 HouseUnfinished4</SpriteUnfinishedNames>
+  </building>
+  <building name = "Blacksmith">
+    <CanBeBuild>true</CanBeBuild>
+    <SpawnTypeName>Order</SpawnTypeName>
+    <SpriteFinished>Blacksmith</SpriteFinished>
+    <BuildingTime>30</BuildingTime>
+    <BuildInZonesWithId>0 1</BuildInZonesWithId>
+    <Description>Improves units equip</Description>
+    <SpriteUnfinishedNames>BlacksmithUnfinished1</SpriteUnfinishedNames>
+  </building>
+  <building name = "StoneTower">
+    <CanBeBuild>false</CanBeBuild>
+    <SpawnTypeName>Order</SpawnTypeName>
+    <SpriteFinished>StoneTower</SpriteFinished>
+    <SpriteUnfinishedNames>StoneTower</SpriteUnfinishedNames>
+  </building>
+    <building name = "Lair">
+    <SpawnTypeName>FreeSpawn</SpawnTypeName>
+    <SpriteFinished>Lair</SpriteFinished>
+    <CanBeBuild>false</CanBeBuild>
+    <SpriteUnfinishedNames>Lair</SpriteUnfinishedNames>
+  </building>
+</buildings>

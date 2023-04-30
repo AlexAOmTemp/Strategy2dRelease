@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<levels>
+  <level name = "HumanBaseLevel">
+	  <background>Background</background>
+	  <groundLevel>-4,158</groundLevel>
+    <commandBackIcon>BackIcon</commandBackIcon>
+    <commandBehindWallIcon>BehindIcon</commandBehindWallIcon>
+    <commandProtectWallIcon>FrontIcon</commandProtectWallIcon>
+    <commandForwardIcon>FrowardIcon</commandForwardIcon>
+    <drowningInGround>0,15</drowningInGround>
+    <mainBuilding>Castle</mainBuilding>
+    <zone name = "CastleZone" >
+      <sizeInTitles>20</sizeInTitles>
+      <groundSprite>GroundCastle</groundSprite>
+      <separatorSprite>Exit</separatorSprite>
+      <zoneEndBuilding>StoneTower</zoneEndBuilding>
+    </zone>
+    <zone name = "ExternalZone" >
+      <sizeInTitles>20</sizeInTitles>
+      <groundSprite>GroundExternal</groundSprite>
+      <separatorSprite>Separator</separatorSprite>
+    </zone>
+    <zone name = "PortalZone" >
+      <sizeInTitles>1</sizeInTitles>
+      <groundSprite>GroundPortal</groundSprite>
+      <separatorSprite>Portal</separatorSprite>
+    </zone>
+  </level>
+  <level name = "MonsterBaseLevel">
+	  <background>Background</background>
+	  <groundLevel>-4,158</groundLevel>
+    <commandBackIcon>BackIcon</commandBackIcon>
+    <commandBehindWallIcon>BehindIcon</commandBehindWallIcon>
+    <commandProtectWallIcon>FrontIcon</commandProtectWallIcon>
+    <commandForwardIcon>FrowardIcon</commandForwardIcon>
+    <drowningInGround>0,1</drowningInGround>
+    <mainBuilding>Lair</mainBuilding>
+    <zone name = "LairZone" >
+      <sizeInTitles>20</sizeInTitles>
+      <groundSprite>GroundCastle</groundSprite>
+      <separatorSprite>Exit</separatorSprite>
+      <zoneEndBuilding>StoneTower</zoneEndBuilding>
+    </zone>
+    <zone name = "PortalZone" >
+      <sizeInTitles>1</sizeInTitles>
+      <groundSprite>GroundPortal</groundSprite>
+      <separatorSprite>Portal</separatorSprite>
+    </zone>
+  </level>
+</levels>
